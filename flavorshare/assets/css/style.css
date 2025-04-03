@@ -1,0 +1,86 @@
+:root {
+    --dark-green: #2a5a2a;
+    --dark-brown: #5a3a1a;
+    --cream: #f5f5dc;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: var(--cream);
+    margin: 0;
+}
+
+header {
+    background: var(--dark-green);
+    color: white;
+    padding: 1rem;
+    text-align: left;
+}
+
+.recipe-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 300px;
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    background: var(--dark-brown);
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
+/* For thumbnail images on homepage */
+.recipe-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: var(--dark-green)
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0;
+}
+
+.recipe-image {
+    width: 100%; /* Makes sure it adapts to its container */
+    max-width: 300px; /* Ensures it doesn’t get too big */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+}
+
+
+
